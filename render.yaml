@@ -1,6 +1,7 @@
 services:
   - type: web
     name: openclaw
+    runtime: image
     image:
       url: docker.io/openclaw/openclaw:latest
     plan: starter
